@@ -1,0 +1,9 @@
+<ul>
+	{{#each @tweets as |tweet|}}
+		<Tweet 
+			@tweet={{tweet}}
+		/>
+	{{else}}
+		NO hay tweets
+	{{/each}}
+</ul>
